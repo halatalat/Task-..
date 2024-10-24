@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* start navbar section */
+nav{
+    background-color:#212122f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+ nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 19px;
+ }
+
+
+/* End navbar section */
+
+/* start header section */
+    header{
+        background: linear-gradient(to right ,rgba(21, 18, 18, 0.178),rgba(1, 1, 14, 0.128)) , url(../img/WhatsApp\ Image\ 2024-03-01\ at\ 5.52.52\ AM.jpeg);
+        background-size: cover;
+        height: 600px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+
+    }
+        header h2{
+            font-size: 40px;
+            letter-spacing: 1px;
+            font-family: monospace;
+            margin-bottom: 21px;
+
+        }
+    header p{
+        font-size: 19px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        font-weight: 600px;
+    }
+  header button{
+    background-color: #5a1537;
+    color: #fff;
+    padding: 8px 33px;
+    font-size: 19px;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 2px;
+    margin-right: 16px;
+
+  }
+  header button:nth-of-type(2){
+    background-color: #328d79;
+
+
+  }
+/* End header section */
+
+/* start treated section */
+    .treated{
+        margin-top: 40px;
+    }
+    .treated h2{
+        text-align: center;
+        margin-bottom: 11px;
+        font-family: monospace;
+       font-size: 28px;
+       letter-spacing: 1px; ;
+       
+       
+    }
+    .treated hr{
+        width: 240px;
+        margin: auto;
+        height: 4px;
+        background-color: red;
+        border: none;
+        margin-bottom: 70px;
+    }
+    .content-treated{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .content-treated img{
+        width: 40%;
+        margin-bottom: 50px;
+
+
+    }
+    .content-treated h3{
+        width: 40%;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.7;
+        font-family: monospace;
+        font-weight: 300px;
+
+    }
+/* End treated section */
+
+
+/* start About section */
+   .about{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fcfcfc;
+    padding: 40px;
+   }
+    
+.content-about{
+    width: 40%;
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 22px 1px;
+    border: 1px solid #00000033;
+    border-radius: 4px;
+}
+.content-about h2{
+    text-align: center;
+    margin-top: 14px;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+.content-about img{
+    width: 80%;
+    height: 350px;
+    display: block;
+    margin: auto;
+
+}
+/* End About section */
+
+
+/* start contact section */
+  .contact , footer{
+    background-image: url(../img/WhatsApp\ Image\ 2024-03-01\ at\ 10.53.08\ AM.jpeg);
+    background-size: cover ;
+    
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #fff;
+  }
+   .contact h2 , footer h2{ 
+    font-size: 30px;
+    margin-top: 51px;
+    font-family: monospace;
+    margin-bottom: 27px;
+   }
+    .contact form , footer form{
+        width: 80%;
+    }
+    .contact input , .contact textarea ,footer input{
+         width: 100%;
+         margin-bottom: 27px;
+         padding: 15px 15px;
+         font-size: 20px;
+         border: none;
+         border-radius: 6px;
+    }
+    .contact button , footer button{
+        margin: auto;
+        display: block;
+        padding: 10px 36px;
+        font-size: 20px;
+        border: none;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        background-color: #252525;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+/* End contact section */
+
+/* start footer section */ 
+footer{
+    background-image: url(../img/WhatsApp\ Image\ 2024-03-01\ at\ 10.53.09\ AM.jpeg);
+    height: 350px;
+    justify-content: center;
+
+}
+
+/* End footer section */
